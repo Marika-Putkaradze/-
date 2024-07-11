@@ -114,6 +114,31 @@ pointer-events: none;
     text-shadow: 0px 0px 20px #e7aa60;
     transition: .2s linear;
   }
+
+  .fb_ins_you{
+    display: flex;
+    
+  }
+
+  .footer_last{
+    width: 184px;
+  }
+  .email{
+    margin-block: 16px;
+  }
+  ._span{
+    margin-right: 16px;
+  }
+  .fa-phone, .fa-envelope, .fa-location-dot{
+    color: #FFFFFF;
+  }
+  .footer_title{
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
      
 /* section */
   .section_page_section1{
@@ -164,7 +189,7 @@ pointer-events: none;
     margin: auto;
      border-radius: 20px;
     border: 2px 0px 0px 0px;
-  
+    cursor: pointer;
   
   }
   
@@ -282,6 +307,7 @@ article{
   padding: 15px;
   margin-left: 15px;
   margin-top: 2px;
+  cursor: pointer;
 }
 
 .h3{
@@ -317,6 +343,7 @@ top: 50px;
 border-radius: 8px;
 margin-left: 100px;
 color: white;
+cursor: pointer;
 }
 
 
@@ -374,8 +401,42 @@ padding: 5px;
 .sectionartwork{
   background-color: #EA904F;
   height: 1585px;
-  top: 86px;
+  padding: 120px;
 
+}
+.div_title{
+  display: flex;
+  align-items: center;
+  margin-bottom: 72px;
+ 
+
+}
+
+
+.artwork_title{
+  font-family: inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+ color: white;
+}
+
+.artwork_title_button{
+  width: 160px;
+  height: 45px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.span{
+  color: #402101;
+  font-family: inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
 }
 .cards_container_title2{
   margin-bottom: 100px;
@@ -386,52 +447,87 @@ padding: 5px;
 
 }
 .cards_container1{
-  margin-bottom: 68px;
-  height: 1345px;
-  top: 120px;
-  left: 120px;
-  background-color: #EA904F;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 40px 24px;
 }
-.buttonsort{
-  background-color: #ffffff;
-  width: 160px;
-  height: 45px;
-  left: 1040px;
-  
-}
-.nav3{
-  display: flex;
-  width: 1200px;
-  height: 48px;
-  background-color: aqua;
-  margin: auto;
-}
+
+
+
 .img3{
   width: 352px;
   height: 224px;
   top: 16px;
   left: 16px;
+  cursor: pointer;
 }
 
-.article1{
-  background-color: white;
-  width: 384px;
-  height: 339px;
-  border-radius: 8px;
-  border: 0px, 0px, 2px, 0px;
-  padding: 15px;}
 
-  .cards_container_contents{
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 51px  22px;
-  }
 
 /*sectioncontact */
 .sectioncontact{
   height: 648px;
   top: 816px;
   background-color: #EA904F;
+ 
+  justify-content: center;
+  align-items: center;
+ 
+}
+.cards_container1{
+  width: 1000px;
+height: 1097px;
+top: 240px;
+left: 120px;
+
+margin: auto;
+line-height: 50px;
+margin-bottom: 200px;
+
+}
+
+.div_artwork{ 
+  width: 1200px;
+  height: 48px;
+  top: 120px;
+  left: 120px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 200px;
+  background-color: aqua;
+  }
+
+
+  .button_numb{
+    display: flex;
+    justify-content: center;
+  }
+.button_Number2{
+  display: flex;
+  width: 447px;
+  margin-top: 72px;
+}
+
+
+.active2{
+    background-color: #B53B1B;
+  }
+    
+.numbers{
+    font-size: 18px;
+    font-family: Inter;
+font-weight: 400;
+line-height: 21.78px;
+text-align: left;
+
+  }
+
+.button_Numbers{
+  border: 2px solid white;
+  color: white;
+  width: 56px;
+  height: 56px;
+  cursor: pointer;
+  background: transparent;
 }
