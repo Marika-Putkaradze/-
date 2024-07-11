@@ -295,7 +295,7 @@ article{
   height: 314px;
   top: 208px;
   left: 120px;
-
+  cursor: pointer;
   column-gap: 30px;
 }
 
