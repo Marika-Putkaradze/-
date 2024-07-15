@@ -53,6 +53,13 @@
     .show {
         left: 0;
     }
+    .div_logo{
+        display: none;
+    }
+
+    .cards_container{
+        padding-inline: 32px;
+    }
 }
 
 

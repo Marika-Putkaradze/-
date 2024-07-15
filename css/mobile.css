@@ -1,5 +1,6 @@
 @media (max-width: 321px) {
     header{
+     
         padding-inline: 8px;
     }
 
@@ -11,5 +12,7 @@
     line-height: 32px;
     margin-bottom: 42px;
 }
-
+.section_page_section1{
+    width: 320px;
+}
 }

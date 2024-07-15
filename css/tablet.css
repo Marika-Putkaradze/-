@@ -29,11 +29,17 @@ footer{
 .cards_container1{
     padding-block: 20px 0;
 }
+.div_logo{
+    display: none;
+}
 }
 
 @media (max-width: 431px){
     .cards_container_title{
         font-size: 24px;
        line-height: 32px;
+    }
+    .div_logo{
+        display: none;
     }
 }
