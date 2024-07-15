@@ -136,6 +136,61 @@
     }
   }
   
+  /* 1439px-769px  */
+@media (max-width: 1025px) {
+
+  /* header */
+  header {
+      padding-inline: 32px;
+  }
+}
+
+@media (max-width: 745px) {
+  .container {
+      padding-top: 116px;
+  }
+
+  /* header */
+  header {
+      padding-inline: 24px;
+  }
+
+  .logo_tablet,
+  .signin_img,
+  .burger {
+      display: block;
+  }
+
+  .logo_desktop,
+  .header_right_singIn {
+      display: none;
+  }
+
+  .header_right {
+      column-gap: 8px;
+  }
+
+  .header_nav {
+      position: fixed;
+      top: 116px;
+      left: -100%;
+      background-color: #B53B1B;
+      width: 240px;
+      height: 260px;
+      padding: 25px 0 0 20px;
+      transition: .5s linear;
+  }
+
+  .header_ul {
+      flex-direction: column;
+      row-gap: 20px;
+  }
+
+
+  .show {
+      left: 0;
+  }
+}
 
 
 
