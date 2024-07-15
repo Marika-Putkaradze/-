@@ -1,18 +1,19 @@
-@media (max-width: 321px) {
+@media (max-width: 321px){
+    /* header */
     header{
-     
-        padding-inline: 8px;
+      padding-inline: 8px;
     }
-
-.cards_container_contents1{
-    padding-inline: 8px 0;
-}
-.cards_container_title{
-    font-size: 24px;
-    line-height: 32px;
-    margin-bottom: 42px;
-}
-.section_page_section1{
-    width: 320px;
-}
-}
+    /* home_section2 */
+    .cards_container_contents1{
+      padding-inline: 8px 0;
+    }
+    .Index_h2{
+      font-size: 24px;
+      line-height: 32px;
+      margin-bottom: 42px;
+    }
+  
+    .sectionartwork{
+      padding: 8px;
+    }
+  }
