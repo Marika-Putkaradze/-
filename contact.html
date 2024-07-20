@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page</title>
     <link rel="stylesheet" href="css/reset.css">
-    <script>"https://kit.fontawesome.com/085bce8105.js" crossorigin ="anonymous"</script>
+    <script src="https://kit.fontawesome.com/7b4dd784d1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/leptpop.css">
     <link rel="stylesheet" href="css/tablet.css">
@@ -15,36 +15,37 @@
     <div class="container">
 
         <!-- header  -->
-        <header>
-          <nav class="header_nav">
-              <ul class="header_ul">
-                  <li class="header_li">
-                      <a href="index.html" class="header_list_link active">Home</a>
-                  </li>
-                  <li class="header_li">
-                      <a href="artworks.html" class="header_list_link">Artworks</a>
-                  </li>
-                  <li class="header_li">
-                      <a href="contact.html" class="header_list_link">Contact</a>
-                  </li>
-              </ul>
-          </nav>
-          <img src="images/burger.svg" alt="" class="burger">
-          <img src="images/iconoir_xmark.svg" alt="" class="xmark">
-        
-          <a href="index.html">
-              <img src="images/logo-7.svg" alt="" class="logo_desktop">
-              <img src="images/logo-8.svg" alt="" class="logo_tablet">
-          </a>
-        
-          <div class="header_right">
-              <a href="" class="header_right_singIn">Sign In</a>
-              <img src="images/uil_signin.svg" class="signin_img">
-              <a href="" class="header_right_cart_icon">
-                  <img src="images/Group 1.svg" alt="">
-              </a>
-          </div>
-        </header> 
+        <!-- header -->
+     <header>
+      <nav class="header_nav">
+        <ul class="header_ul">
+          <li class="header_li">
+            <a class="header_list_link active" href="index.html">Home</a>
+          </li>
+          <li class="header_li">
+            <a class="header_list_link inactive" href="artwork.html">Artworks</a>
+          </li>
+          <li class="header_li">
+            <a class="header_list_link inactive" href="contact.html">Contact</a>
+          </li>
+        </ul> 
+      </nav>
+      <i class="fa-solid fa-bars"></i>
+     <i class="fa-solid fa-xmark"></i>
+      <a href="index.html" class="logo">
+        <span class="logo_first_word">Earthly</span>
+        <span class="logo_second_word">Artisry</span>
+      </a> 
+     <div class="header_right_side">
+      <a href="#">
+        <span class="header_right_side_span">Sign In</span>
+        <i class="fa-solid fa-arrow-right-to-bracket"></i>
+      </a>
+      <a href="#">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </a>
+     </div>
+     </header>
         
          <!--section-->
          <section class="contact_sec1">
@@ -147,8 +148,6 @@
  </nav>  
  </div>
   </footer>
-        
-           
-    </div>
+</div>
 </body>
 </html>
