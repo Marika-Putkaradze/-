@@ -35,12 +35,14 @@
   header {
     padding-inline: 8px;
   }
+ 
 }
 
 @media (max-width: 321px) {
   .section_page_section1 {
     width: 320px;
   }
+ 
 }
 
 
@@ -108,6 +110,7 @@ text-align: center;  }
   .artwork_span {
     display: none;
   }
+
 }
 
 @media only screen and (max-width: 320px) {
