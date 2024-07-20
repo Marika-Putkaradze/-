@@ -7,8 +7,6 @@
 .numbers:nth-child(4){
   display: none;
 }
-
-
   .container-content {
     width: 99%;
   }
@@ -147,7 +145,7 @@ text-align: center;  }
     line-height: 40px;
     margin-bottom: 32px;
   }
-   /* footer */
+  
    footer{
     padding-block: 30px;
   }
