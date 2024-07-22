@@ -17,8 +17,14 @@
   header {
     padding-inline: 32px;
   }
-}
+  .contact_section1{
+    padding-left: 32px;
+  }
+    .contact_section2{
+      padding-inline: 116px;
+  }
 
+}
 
 @media (max-width: 745px) {
   header {
@@ -63,6 +69,10 @@
   .contact_sec2{
     padding-inline: 116px;
 }
+.contact_section2{
+  padding-inline: 24px;
+}
+
 }
 @media (max-width: 745px) {
   .logo_tablet {
@@ -158,11 +168,17 @@ footer{
   justify-content: space-between;
 }
 
-
 }
+@media (max-width: 1024px) {
+  .contact_iframe_box {
+      flex-direction: column;
+      align-items: center;
+  }
 
-
-
+  .left_side, .iframe_box {
+      width: 100%;
+  }
+}
 
 @media (max-width: 745px) {
   header {
@@ -188,6 +204,7 @@ footer{
     column-gap: 8px;
   }
 
+
   .header_nav {
     position: fixed;
     top: 116px;
@@ -203,13 +220,48 @@ footer{
     flex-direction: column;
     row-gap: 20px;
   }
+  .contact_section2_h2{
+    width: 100%;
+
+  }
+  .contact_sec1{
+    width: 100%;
+  }
+  .contact_sec2{
+    width: 100%;
+  }
 }
 
+@media (max-width: 744px) {
+  .contact_section2_h2 {
+      font-size: 1.5em;
+  }
+
+  .button_box_span {
+      font-size: 1em;
+  }
+
+  iframe {
+      
+      width: 100%;
+    
+  }
+  .left_side{
+    flex-direction: row;
+  }
+  
+}
 @media (max-width: 745px) {
   .cards_container {
     padding-inline: 32px;
+   
+  }
+  .button_box_span{
+    display: none;
   }
 }
+
+
 
 
 

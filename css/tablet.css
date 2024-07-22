@@ -22,6 +22,12 @@
   .artwork_span {
     display: none;
   }
+  .contact_div_sec2{
+    margin: auto;
+  }
+  .button_box_span{
+    display: block;
+  }
 }
 
 @media (max-width: 431px) {
@@ -29,8 +35,8 @@
     font-size: 24px;
     line-height: 32px;
   }
+ 
 }
-
 @media (min-width: 480px) and (max-width: 744px) {
   .button_Number2 .button_Numbers {
     width: 40px !important;
@@ -172,6 +178,19 @@ text-align: center;  }
     font-size: 32px;
     line-height: 40px;
     margin-bottom: 32px;
+  }
+}
+@media (max-width: 480px) {
+  .contact_section2_h2 {
+      font-size: 1.2em;
+  }
+
+  .button_box_span{
+    display: none;
+  }
+
+  iframe {
+      height: 250px;
   }
 }
 

@@ -39,6 +39,13 @@
   .section_page_section1 {
     width: 320px;
   }
+  .contact_span {
+    display: none;
+  }
+ 
+  iframe{
+    width: 100%;
+  }
 
 }
 
@@ -60,6 +67,10 @@
     .contact_sec2{
       padding-inline: 50px;
   }
+  .contact_div_sec2{
+    margin: auto;
+  }
+  
 }
 
 
@@ -223,5 +234,18 @@ text-align: center;  }
 
   .artwork_span {
     display: none;
+  }
+}
+@media (max-width: 320px) {
+  .contact_section2_h2 {
+      font-size: 1em;
+  }
+
+  .button_box_span {
+      font-size: 0.8em;
+  }
+
+  iframe {
+      height: 200px;
   }
 }
