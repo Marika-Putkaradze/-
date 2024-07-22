@@ -9,6 +9,7 @@
   
   .container-content {
     width: 99%;
+    
   }
   
   .box {
@@ -35,18 +36,21 @@
   header {
     padding-inline: 8px;
   }
- 
-}
-
-@media (max-width: 321px) {
   .section_page_section1 {
     width: 320px;
+  }
+  .contact_sec1{
+    width: 320px;
+  }
+  
+    .contact_sec2{
+      width: 99%;
   }
  
 }
 
 
-
+ 
 @media (max-width: 321px) {
   .cards_container_contents1 {
     padding-inline: 8px 0;
@@ -56,9 +60,14 @@
     line-height: 32px;
     margin-bottom: 42px;
   }
+  .contact_sec1{
+    padding-left: 10px;
+  }
+  
+    .contact_sec2{
+      padding-inline: 50px;
+  }
 }
-
-
 
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -182,6 +191,27 @@ text-align: center;  }
 @media (max-width: 481px) {
   header {
     padding-inline: 20px;
+  }
+
+  .Index_h2, .cards_container_title {
+    font-size: 18px;
+  }
+
+  .send_button1, .buttonadd {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .h3, .h4 {
+    font-size: 14px;
+  }
+
+  .nav2 {
+    padding: 8px;
+  }
+
+  .nav2 h4, .nav2 button {
+    margin: 4px 0;
   }
 }
 @media only screen and (max-width: 320px) {

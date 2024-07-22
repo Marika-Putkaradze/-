@@ -69,6 +69,13 @@ text-align: center;  }
   .artwork_span {
     display: none;
   }
+  .contact_sec1{
+    padding-left: 10px;
+  }
+  
+    .contact_sec2{
+      padding-inline: 50px;
+  }
 }
 
 @media (max-width: 481px) {
@@ -167,4 +174,7 @@ text-align: center;  }
     margin-bottom: 32px;
   }
 }
+
+
+
 
